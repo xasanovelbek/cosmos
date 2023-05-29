@@ -1,14 +1,14 @@
 // swift-tools-version:5.0
 
 import PackageDescription
-let name = "Cosmos"
+
 let package = Package(
-    name: name,
+    name: "Cosmos",
     products: [
-        .library(name: name, targets: [name])
+        .library(name: "Cosmos", targets: ["Cosmos"])
     ],
     targets: [
-        .target(name: name, path: name),
+        .target(name: "Cosmos", path: "Cosmos"),
     ],
     swiftLanguageVersions: [.v5]
 )
